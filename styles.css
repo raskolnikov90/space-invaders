@@ -1,0 +1,57 @@
+.grid {
+
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-size: 20px;
+	background-image: url(images/invader.gif);
+	background-repeat: no-repeat;
+}
+
+.shooter {
+	background-size: 20px;
+	background-image: url(images/shooter.png);
+}
+
+.gameover {
+	background-size: 300px;
+	background-image: url(images/gameover.jpg);
+	background-repeat: no-repeat;
+
+}
+
+.win {
+	background-size: 300px;
+	background-image: url(images/win.jpg);
+	background-repeat: no-repeat;
+
+}
+
+.laser {
+	background-size: 20px;
+	background-image: url(images/shoot.png);
+}
+
+.boom {
+	background-size: 20px;
+	background-image: url(images/boom.gif);
+	background-repeat: no-repeat;
+}
+
+.score {
+	margin-left: 30px;
+	position: absolute;
+	color: white;
+	background-color: black;
+}
